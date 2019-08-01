@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///aibuy-product
+    password: root
+    username: root
